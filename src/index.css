@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+/* Formula Condensed fonts
+   The font files live in src/assets/fonts and are provided as .otf files.
+   Point the src to the existing files and use a single family name with different weights. */
+@font-face {
+  font-family: "FormulaCondensed";
+  src: url("./assets/fonts/FormulaCondensed-Light.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "FormulaCondensed";
+  src: url("./assets/fonts/FormulaCondensed-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+/* Provide a CSS variable for convenience. Use the family name declared above. */
+:root {
+  --font-formula-condensed: "FormulaCondensed", sans-serif;
+}

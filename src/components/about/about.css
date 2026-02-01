@@ -1,0 +1,29 @@
+.description{
+  letter-spacing: 2px;
+  width: 550px;
+  font-size: 65px;
+  font-weight: 700;
+  color: rgb(255, 246, 232);
+}
+
+.ption{
+  margin-left: 110px;
+  margin-right: 110px;
+  margin-top: 300px;
+  margin-bottom: 250px;
+}
+
+.description-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.description1{
+  align-items: end;
+  width: 600px;
+  font-family:'Arial';
+  font-size: 15px;
+  color: gray;
+  font-weight: 600;
+}

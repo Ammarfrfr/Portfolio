@@ -1,0 +1,45 @@
+.navie{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0 ;
+  bottom: 10;
+  z-index: 10;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1c1c1c;
+} 
+
+.navName{
+  padding-left: 50px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.navName1{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  padding-right: 60px;
+  margin-top: -5px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+.navName1 div{
+  margin-left: 20px;
+}
+
+.navName1 div:hover{
+  color: oklch(55.3% 0.195 38.402);
+  transition: background-color 0.3s ease;
+  font-weight: 700;
+}
+

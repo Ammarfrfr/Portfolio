@@ -1,0 +1,47 @@
+
+.line{
+  position: relative;
+}
+
+.carousel{
+  margin-top: 230px;
+  background-color: oklch(55.3% 0.195 38.402);
+  height: 105px;
+  transform: rotate(-3deg);
+  overflow: hidden;
+  overflow-x: auto;
+}
+.carousel::-webkit-scrollbar {
+  display: none;
+} 
+.carousel-group{
+  display: flex;
+  width: max-content;
+  justify-content: space-between;
+  overflow: hidden;
+  gap: 20px;
+  font-size: 75px;
+  font-weight: 700;
+  color: rgb(255, 204, 222);
+  animation: spin 5s linear infinite;
+}
+
+.carousel-group:hover, .carousel-item:hover{
+  animation-play-state: paused;
+}
+
+.carousel-item{
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes spin{
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(-50%);
+  }
+}

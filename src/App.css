@@ -1,0 +1,22 @@
+body{
+  background-color: #1c1c1c;
+  font-family: "FormulaCondensed", sans-serif;
+  margin: 0;
+  padding:0;
+}
+
+.card{
+  font-weight:700;
+  font-size: 90px; 
+  letter-spacing: 1px;
+}
+
+.navName{
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.card{
+  color: rgb(255, 246, 232);
+}
+
