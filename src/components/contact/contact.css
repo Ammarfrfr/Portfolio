@@ -1,0 +1,79 @@
+.contact-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 20px;
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 520px;
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 1px;
+  gap: 28px;
+}
+
+.contact-title {
+  font-size: 50px;
+  max-width: 470px;
+  letter-spacing: 1px;
+  padding-left: 70px;
+  font-weight: 700;
+  color: rgb(255, 246, 232);
+  line-height: 55px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+.field label {
+  font-size: 0.9rem;
+  color: #9ca3af;
+}
+
+.field input,
+.field textarea {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #333;
+  padding: 10px 0;
+  font-size: 1rem;
+  padding-left: 4 px;
+  color: #fff;
+  outline: none;
+  transition: border-color 0.3s ease;
+  resize: none;
+}
+
+.field input:focus,
+.field textarea:focus {
+  border-color: #f97316; /* orange accent */
+}
+
+.send-btn {
+  align-self: flex-start;
+  margin-top: 10px;
+  background: transparent;
+  color: #f97316;
+  border: 1px solid #f97316;
+  padding: 12px 24px;
+  font-size: 0.95rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.send-btn:hover {
+  background: #f97316;
+  color: #0f0f0f;
+}
+

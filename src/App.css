@@ -20,3 +20,8 @@ body{
   color: rgb(255, 246, 232);
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* navbar height */
+}
+

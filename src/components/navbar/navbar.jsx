@@ -1,4 +1,5 @@
 import './navbar.css';
+import About from '../about/about.jsx';
 
 function Navbar() {
   return (
@@ -10,16 +11,29 @@ function Navbar() {
           </div>
           <div className="navName1 text-gray-300">
             <div>
-              Beast
+              <a 
+              href="https://github.com/Ammarfrfr" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              >
+                Github
+              </a>
+            </div>
+
+            <div>
+              <a href="#about">
+                About
+              </a>
             </div>
             <div>
-              Code
+              <a href="#project">
+                Project
+              </a>
             </div>
             <div>
-              Craft
-            </div>
-            <div>
-              About Us
+              <a href="#contact">
+                Contact
+              </a>
             </div>
 
           </div>

@@ -1,4 +1,41 @@
 
+
+.carousel-container {
+  width: 100%;
+  padding-top: 250px;
+}
+
+.carousel-track {
+  display: flex;
+  width: max-content;
+  animation: marquee linear infinite;
+}
+
+.carousel-set {
+  display: flex;
+  align-items: center;
+  gap: 55px;
+  padding-right: 55px;
+}
+
+.item {
+  flex-shrink: 0;
+  font-size: 48px;
+  color: white;
+}
+
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+
+/* 
 .line{
   position: relative;
 }
@@ -44,4 +81,4 @@
   100%{
     transform: translateX(-50%);
   }
-}
+} */
