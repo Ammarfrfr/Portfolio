@@ -7,7 +7,9 @@ function Navbar() {
       <div className="navie">
         <div className="navbar">
           <div className="navName text-orange-700">
-            MR
+            <a href="#home">
+              MR
+            </a>
           </div>
           <div className="navName1 text-gray-300">
             <div>

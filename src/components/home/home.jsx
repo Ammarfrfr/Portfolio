@@ -6,7 +6,7 @@ function Home(){
   return (
     <div>
       <div className="card flex flex-col items-center mt-40 gap-2">
-        <div className="line leading-none">ENERGISED BY <span className="word text-yellow-500">
+        <div className="line leading-none">ENERGISED BY <span className="word text-yellow-500" id="home">
             CODE
           </span> ,
 

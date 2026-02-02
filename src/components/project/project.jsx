@@ -2,7 +2,7 @@ import './project.css'
 
 function Project(){
   return(
-    <div>
+    <div className='shitshow'>
       <div className="flex justify-center font-bold text-6xl text-[rgb(255,246,232)] mb-4">
         <div className="continer">
           UPCOMING PROJECTS - STAY TUNED!
@@ -14,7 +14,7 @@ function Project(){
         <div>
           <div className="backend">Backend Project Using Postman</div>
           <div className="components">
-            <div className="bg-violet-900 pl-1 pr-1 pt-0.5">Tools Used:</div>
+            <div className="toolsUsed bg-violet-900 pl-1 pr-1 pt-0.5">Tools Used:</div>
             <div>NodeJs</div>
             <div>Postman</div>
             <div>MongoDB</div>

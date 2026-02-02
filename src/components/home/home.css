@@ -24,6 +24,33 @@
   color: white;
 }
 
+/* Mobile (<=640px) */
+@media (max-width: 640px) {
+  .carousel-container {
+    padding-top: 100px;
+  }
+
+  .line{
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .carousel-set {
+    gap: 18px;
+    padding-right: 12px;
+  }
+
+  .item {
+    font-size: 28px;
+  }
+
+  .card {
+    margin-top: 110px !important;
+    gap: 6px !important;
+    font-size: 60px !important;
+  }
+}
+
 
 @keyframes marquee {
   from {

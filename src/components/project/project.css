@@ -20,4 +20,37 @@
 .backend{
   font-size: 50px;
   font-weight: 700;
+  cursor: pointer;
 }
+
+/* Mobile (<=640px) */
+@media (max-width: 640px) {
+  .shitshow{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .continer{
+    width: 100%;
+    padding: 0 12px;
+  }
+
+  .project-container{
+    padding-left: 16px;
+    padding-top: 40px;
+  }
+  .toolsUsed{
+    width: 70px;
+  }
+
+  .components{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    padding-left: 0;
+  }
+
+  .backend{
+    font-size: 28px;
+  }
+}
+

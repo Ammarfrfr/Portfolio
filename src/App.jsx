@@ -10,17 +10,21 @@ function App() {
 
   return (
     <>
+    <section id="home1">
       <Home/>
+    </section>
+    <section id="navbar">
       <Navbar/>
-      <section id="about">
-        <About/>
-      </section>
-      <section id="project">
-        <Project/>
-      </section>
-      <section id="contact">
-        <ContactUs/>
-      </section>
+    </section>
+    <section id="about">
+      <About/>
+    </section>
+    <section id="project">
+      <Project/>
+    </section>
+    <section id="contact">
+      <ContactUs/>
+    </section>
     </>
   )
 }

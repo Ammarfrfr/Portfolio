@@ -22,6 +22,6 @@ body{
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 80px; /* navbar height */
+  scroll-padding-top: 100px; /* navbar height */
 }
 

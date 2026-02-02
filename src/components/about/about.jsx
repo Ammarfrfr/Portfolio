@@ -10,7 +10,7 @@ function About() {
             EXCELLING AT <span className="text-[rgb(87,56,175)]">CRAFTING</span> CLEAN, <span className="text-[rgb(245,78,38)]">EFFICIENT</span> CODE WITH <span className="text-[rgb(208,213,255)]">OUTSTANDING DESIGN</span>.
           </div>
           <div>
-            <div className="flex items-end mb-4">
+            <div className="shit flex items-end mb-4">
               <div className="rotate-[-7deg] inline-block bg-indigo-800 text-5xl font-bold text-white pl-2 pt-3 pr-2">
                 YO!
               </div>
